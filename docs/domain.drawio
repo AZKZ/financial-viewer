@@ -1,0 +1,130 @@
+<mxfile host="05bf4e7e-0c5f-4aa3-8823-ed625af13a69" modified="2020-09-14T21:52:34.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="CPL1RcwcsS_tz59xCntY" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="950" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="245" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=none;align=left;rotation=-45;" parent="1" vertex="1">
+                    <mxGeometry x="499" y="-490" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="" style="triangle;whiteSpace=wrap;html=1;fillColor=none;align=left;rotation=-145;" parent="1" vertex="1">
+                    <mxGeometry x="219" y="-490" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=diamondThin;endFill=1;" parent="1" source="170" target="114" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="173" vertex="1" connectable="0">
+                    <mxGeometry x="0.7895" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" value="0..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="173" vertex="1" connectable="0">
+                    <mxGeometry x="-0.807" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="178" value="&lt;ul&gt;&lt;li&gt;&lt;span&gt;一ヶ月分の損益計算書を表す。&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;各項目には、その項目に適した勘定科目の内訳が複数件紐づく。&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;紐づく内訳は0件の場合もある。&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br&gt;&lt;span&gt;(例)&lt;/span&gt;&lt;br&gt;&lt;span&gt;[販売管理費]&lt;/span&gt;&lt;br&gt;&lt;span&gt;|-給料手当&lt;/span&gt;&lt;br&gt;&lt;span&gt;|-交際費&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;|-会議費etc...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;未来日の作成も許可する。&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=callout;html=1;perimeter=calloutPerimeter;size=15;position=0.15;position2=0;base=50;rotation=0;fontColor=#000000;direction=north;whiteSpace=wrap;flipH=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="-1060" width="435" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="227" target="223" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="0..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="235" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5333" y="4" relative="1" as="geometry">
+                        <mxPoint x="10" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="237" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="235" vertex="1" connectable="0">
+                    <mxGeometry x="0.4" relative="1" as="geometry">
+                        <mxPoint x="-8" y="-16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="239" target="227" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="-560" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="0..n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="519" y="-560" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="&lt;ul&gt;&lt;li&gt;勘定科目は3層のレベルで区分けされる。&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;(例)&lt;br&gt;費用&amp;nbsp; ←【勘定科目カテゴリー】&lt;br&gt;|-&lt;span style=&quot;background-color: rgb(253 , 246 , 227) ; color: rgb(51 , 51 , 51) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;販売管理費&lt;/span&gt;&amp;nbsp; ←【勘定科目サブカテゴリー】&lt;br&gt;&amp;nbsp; |-給料手当&amp;nbsp; ←【勘定科目】&lt;br&gt;&amp;nbsp; |-交通費&lt;br&gt;&amp;nbsp; |-会議費etc&lt;br&gt;|-営業外費用&lt;br&gt;&amp;nbsp; |-為替差額&lt;br&gt;&amp;nbsp; |-有価証券売却損" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;rotation=0;horizontal=1;flipH=0;direction=west;position2=0.52;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="255" y="-500" width="285" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="勘定科目カテゴリー" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="-560" width="140" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="227" value="勘定科目サブカテゴリー" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="-560" width="140" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="勘定科目" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="564" y="-560" width="140" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="月単位損益計算書" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="-920" width="140" height="286" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="年" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="月" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="52" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="売上高" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="78" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="営業外収益" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="104" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="特別利益" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="130" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="売上原価" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="156" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="営業外費用" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="182" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="販売管理費" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="208" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="特別損失" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="234" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="当期純利益" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="111" vertex="1">
+                    <mxGeometry y="260" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="170" target="239" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="255" vertex="1" connectable="0">
+                    <mxGeometry x="0.764" y="-2" relative="1" as="geometry">
+                        <mxPoint x="18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="259" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="255" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8202" y="-2" relative="1" as="geometry">
+                        <mxPoint x="18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="170" value="月単位内訳" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="564" y="-842" width="140" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="年" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="170" vertex="1">
+                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="月" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="170" vertex="1">
+                    <mxGeometry y="52" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="勘定科目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="170" vertex="1">
+                    <mxGeometry y="78" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="金額" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="170" vertex="1">
+                    <mxGeometry y="104" width="140" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;勘定科目別の月単位での金額を表す。&lt;/li&gt;&lt;li&gt;当月以降は作成を許可しない。&lt;/li&gt;&lt;ul&gt;&lt;li&gt;当月が2月の場合、1月以前のみ作成可能&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=callout;html=1;perimeter=calloutPerimeter;size=30;position=0.82;position2=0.72;base=20;rotation=0;fontColor=#000000;direction=north;whiteSpace=wrap;flipH=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="-824" width="380" height="64" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
