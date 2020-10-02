@@ -5,13 +5,11 @@ import com.azkz.domain.accountitle.AccountSubcategory
 
 abstract class AbstractIncomeStatementItem(
     override val accountSubcategory: AccountSubcategory,
-    override val breakdowns: List<AccountBreakdown>
+    breakdowns: List<AccountBreakdown>
 ) :
     IncomeStatementItem {
 
-    init {
-        // 損益計算書項目と内訳の不整合を許さないためのチェック
-        val illegalBreakdowns = breakdowns.filterNot { it.isSameAccountSubCategory(accountSubcategory) }
-        if (illegalBreakdowns.isNotEmpty()) throw IllegalArgumentException()
-    }
+    // 勘定科目サブカテゴリが一致している内訳のみ格納
+    override val breakdowns: List<AccountBreakdown> =
+        breakdowns.filter { it.accountTitle.subcategory == accountSubcategory }
 }
