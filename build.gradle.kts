@@ -14,6 +14,7 @@ dependencies {
     implementation("org.apache.commons:commons-lang3:3.11")
     implementation("com.opencsv:opencsv:5.2")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("com.amazonaws:aws-lambda-java-core:1.2.1")
 
     testImplementation(platform("org.junit:junit-bom:5.7.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
