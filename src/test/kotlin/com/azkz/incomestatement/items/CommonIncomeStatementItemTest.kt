@@ -11,8 +11,7 @@ import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Test
 
 /**
- * 損益計算書抽象クラスのテストクラス
- * 共通処理部分をテストする
+ * 損益計算書項目クラスの共通部分をテストする
  */
 class CommonIncomeStatementItemTest {
 
@@ -25,18 +24,20 @@ class CommonIncomeStatementItemTest {
         val ACCOUNT_TITLE = AccountTitle(ACCOUNT_SUBCATEGORY, "正常なサブカテゴリ")
         val ILLEGAL_SUBCATEGORY_ACCOUNT_TITLE = AccountTitle(ILLEGAL_ACCOUNT_SUBCATEGORY, "不正なサブカテゴリ")
 
+        /** 正常な内訳 */
         val BREAKDOWNS = listOf<AccountBreakdown>(
             MockAccountBreakdown(ACCOUNT_TITLE, AMOUNT),
             MockAccountBreakdown(ACCOUNT_TITLE, AMOUNT)
         )
 
-        /** 部分的に不正なサブカテゴリを含む内訳 */
+        /** 部分的に意図しないサブカテゴリを含む内訳 */
         val PARTIAL_ILLEGAL_SUBCATEGORY_BREAKDOWNS = listOf<AccountBreakdown>(
             MockAccountBreakdown(ACCOUNT_TITLE, AMOUNT),
-            MockAccountBreakdown(ILLEGAL_SUBCATEGORY_ACCOUNT_TITLE, AMOUNT)
+            MockAccountBreakdown(ILLEGAL_SUBCATEGORY_ACCOUNT_TITLE, AMOUNT),
+            MockAccountBreakdown(ACCOUNT_TITLE, AMOUNT),
         )
 
-        /** 全て不正なサブカテゴリの内訳 */
+        /** 全て意図しないサブカテゴリの内訳 */
         val ALL_ILLEGAL_SUBCATEGORY_BREAKDOWNS = listOf<AccountBreakdown>(
             MockAccountBreakdown(ILLEGAL_SUBCATEGORY_ACCOUNT_TITLE, AMOUNT),
             MockAccountBreakdown(ILLEGAL_SUBCATEGORY_ACCOUNT_TITLE, AMOUNT)
@@ -60,6 +61,7 @@ class CommonIncomeStatementItemTest {
         assertEquals(ACCOUNT_SUBCATEGORY, incomeStatementItem.accountSubcategory)
         // サブカテゴリでフィルタされているため、引数とは違っているはず
         assertNotEquals(PARTIAL_ILLEGAL_SUBCATEGORY_BREAKDOWNS, incomeStatementItem.breakdowns)
+        // 正常な内訳は取り込まれているため、空ではない
         assert(incomeStatementItem.breakdowns.isNotEmpty())
     }
 
@@ -71,6 +73,7 @@ class CommonIncomeStatementItemTest {
         assertEquals(ACCOUNT_SUBCATEGORY, incomeStatementItem.accountSubcategory)
         // サブカテゴリでフィルタされているため、引数とは違っているはず
         assertNotEquals(ALL_ILLEGAL_SUBCATEGORY_BREAKDOWNS, incomeStatementItem.breakdowns)
+        // 全ての内訳が取り込まれていないため、空になる
         assert(incomeStatementItem.breakdowns.isEmpty())
     }
 

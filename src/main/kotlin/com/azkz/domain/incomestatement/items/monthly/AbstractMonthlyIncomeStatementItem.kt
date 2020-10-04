@@ -5,17 +5,14 @@ import com.azkz.domain.accountitle.AccountSubcategory
 import com.azkz.domain.incomestatement.items.AbstractIncomeStatementItem
 import java.time.YearMonth
 
-abstract class MonthlyIncomeStatementItem(
+abstract class AbstractMonthlyIncomeStatementItem(
     val yearMonth: YearMonth,
     accountSubcategory: AccountSubcategory,
     breakdowns: List<MonthlyAccountBreakdown>
 ) :
     AbstractIncomeStatementItem(
-        accountSubcategory, breakdowns
+        accountSubcategory = accountSubcategory,
+        // 年月が一致している内訳のみ取り込む
+        breakdowns = breakdowns.filter { it.yearMonth == yearMonth }
     ) {
-
-    init {
-        val illegalYearMonthBreakdowns = breakdowns.filterNot { it.yearMonth.equals(yearMonth) }
-        if (illegalYearMonthBreakdowns.isNotEmpty()) throw IllegalArgumentException()
-    }
 }

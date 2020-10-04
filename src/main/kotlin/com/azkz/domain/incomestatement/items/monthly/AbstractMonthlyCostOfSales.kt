@@ -4,7 +4,7 @@ import com.azkz.domain.accountbreakdown.MonthlyAccountBreakdown
 import com.azkz.domain.accountitle.AccountSubcategory
 import java.time.YearMonth
 
-abstract class MonthlySales(
+abstract class AbstractMonthlyCostOfSales(
     yearMonth: YearMonth, breakdowns: List<MonthlyAccountBreakdown>
-) : MonthlyIncomeStatementItem(yearMonth, AccountSubcategory.SALES, breakdowns) {
+) : AbstractMonthlyIncomeStatementItem(yearMonth, AccountSubcategory.COST_OF_SALES, breakdowns) {
 }

@@ -4,9 +4,9 @@ import com.azkz.domain.accountbreakdown.MonthlyAccountBreakdown
 import com.azkz.domain.accountitle.AccountSubcategory
 import java.time.YearMonth
 
-abstract class MonthlyExtraordinaryLoss(
+abstract class AbstractMonthlyExtraordinaryLoss(
     yearMonth: YearMonth,
     breakdowns: List<MonthlyAccountBreakdown>
-) : MonthlyIncomeStatementItem(yearMonth, AccountSubcategory.EXTRAORDINARY_LOSS, breakdowns) {
+) : AbstractMonthlyIncomeStatementItem(yearMonth, AccountSubcategory.EXTRAORDINARY_LOSS, breakdowns) {
 
 }

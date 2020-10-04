@@ -6,11 +6,11 @@ import java.time.YearMonth
 interface MonthlyIncomeStatement {
     val yearMonth: YearMonth
 
-    val sales: MonthlySales
-    val costOfSales: MonthlyCostOfSales
-    val sellingGeneralAdministrativeExpenses: MonthlySellingGeneralAdministrativeExpenses
-    val nonOperatingIncome: MonthlyNonOperatingIncome
-    val nonOperatingExpenses: MonthlyNonOperatingExpenses
-    val extraordinaryIncome: MonthlyExtraordinaryIncome
-    val extraordinaryLoss: MonthlyExtraordinaryLoss
+    val sales: AbstractMonthlySales
+    val costOfSales: AbstractMonthlyCostOfSales
+    val sellingGeneralAdministrativeExpenses: AbstractMonthlySellingGeneralAdministrativeExpenses
+    val nonOperatingIncome: AbstractMonthlyNonOperatingIncome
+    val nonOperatingExpenses: AbstractMonthlyNonOperatingExpenses
+    val extraordinaryIncome: AbstractMonthlyExtraordinaryIncome
+    val extraordinaryLoss: AbstractMonthlyExtraordinaryLoss
 }
