@@ -42,7 +42,7 @@ class MonthlyIncomeStatementImpl(
             yearMonth = yearMonth,
             breakdowns = monthlyAccountBreakdowns.filter { it.accountTitle.subcategory == AccountSubcategory.NON_OPERATING_EXPENSE })
 
-    /** 特別収益 */
+    /** 特別利益 */
     override val extraordinaryIncome: AbstractMonthlyExtraordinaryIncome =
         AbstractMonthlyExtraordinaryIncomeImpl(
             yearMonth = yearMonth,
