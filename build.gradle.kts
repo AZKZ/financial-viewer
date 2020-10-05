@@ -15,6 +15,8 @@ dependencies {
     implementation("com.opencsv:opencsv:5.2")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.1")
+    implementation("com.amazonaws:aws-java-sdk-s3:1.11.578")
+    implementation("com.amazonaws:aws-lambda-java-events:2.2.9")
 
     testImplementation(platform("org.junit:junit-bom:5.7.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
