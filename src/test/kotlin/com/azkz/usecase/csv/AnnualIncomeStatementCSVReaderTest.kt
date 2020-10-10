@@ -6,38 +6,23 @@ import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import java.io.File
-import java.io.FileNotFoundException
 
 class AnnualIncomeStatementCSVReaderTest {
 
     companion object {
-        val CSV_FILE = File("src/test/resources/csv/損益計算書（年間推移）/正常.csv")
-        val NOT_EXISTS_FILE = File("notExists/正常.csv")
-        val ILLEGAL_EXTENSION_FILE = File("src/test/resources/csv/損益計算書（年間推移）/拡張子違い.txt")
-        val HEADER_NOTHING_FILE = File("src/test/resources/csv/損益計算書（年間推移）/ヘッダー行なし.csv")
-        val MULTIPLE_YEARS_FILE = File("src/test/resources/csv/損益計算書（年間推移）/複数年度.csv")
-        val ILLEGAL_TERM_DATE_FILE = File("src/test/resources/csv/損益計算書（年間推移）/集計期間の日付不正.csv")
-        val TERM_NOTHING_FILE = File("src/test/resources/csv/損益計算書（年間推移）/集計期間なし.csv")
-        val FUTURE_MONTHS_FILE = File("src/test/resources/csv/損益計算書（年間推移）/未来データ.csv")
-        val TARGET_RECORD_NOTHING_FILE = File("src/test/resources/csv/損益計算書（年間推移）/対象レコードなし.csv")
+        val CSV_FILE = File("src/test/resources/csv/損益計算書（年間推移）/正常.csv").inputStream()
+        val HEADER_NOTHING_FILE = File("src/test/resources/csv/損益計算書（年間推移）/ヘッダー行なし.csv").inputStream()
+        val MULTIPLE_YEARS_FILE = File("src/test/resources/csv/損益計算書（年間推移）/複数年度.csv").inputStream()
+        val ILLEGAL_TERM_DATE_FILE = File("src/test/resources/csv/損益計算書（年間推移）/集計期間の日付不正.csv").inputStream()
+        val TERM_NOTHING_FILE = File("src/test/resources/csv/損益計算書（年間推移）/集計期間なし.csv").inputStream()
+        val FUTURE_MONTHS_FILE = File("src/test/resources/csv/損益計算書（年間推移）/未来データ.csv").inputStream()
+        val TARGET_RECORD_NOTHING_FILE = File("src/test/resources/csv/損益計算書（年間推移）/対象レコードなし.csv").inputStream()
     }
 
     @Test
     fun `Test to create`() {
         val incomeStatementCSVReader = AnnualIncomeStatementCSVReaderImpl(CSV_FILE)
         assertNotNull(incomeStatementCSVReader)
-    }
-
-    @Test
-    fun `Test to create by not exists file`() {
-        assertThrows<FileNotFoundException> { AnnualIncomeStatementCSVReaderImpl(NOT_EXISTS_FILE) }
-    }
-
-    @Test
-    fun `Test to create by illegal extension file`() {
-        val exception =
-            assertThrows<IllegalArgumentException> { AnnualIncomeStatementCSVReaderImpl(ILLEGAL_EXTENSION_FILE) }
-        assertEquals("ファイルの拡張子が正しくありません。", exception.message)
     }
 
     @Test

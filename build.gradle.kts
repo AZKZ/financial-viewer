@@ -32,3 +32,17 @@ tasks.test {
 tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "1.8"
 }
+
+tasks.register<Zip>(name = "packageBig") {
+    from(tasks.compileKotlin)
+    from(tasks.processResources)
+    into("lib") {
+        from(configurations.runtimeClasspath)
+    }
+}
+
+tasks.register<Zip>("packageLibs") {
+    into("java/lib") {
+        from(configurations.runtimeClasspath)
+    }
+}

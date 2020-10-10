@@ -7,9 +7,7 @@ import com.azkz.domain.accountitle.AccountTitle
 import com.azkz.domain.value.Amount
 import com.azkz.domain.value.Currency
 import com.opencsv.CSVReader
-import java.io.File
-import java.io.FileNotFoundException
-import java.io.FileReader
+import java.io.InputStream
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.time.Month
@@ -19,18 +17,10 @@ import java.util.*
 /**
  * 損益計算書（年間推移）読み取り実装クラス
  */
-class AnnualIncomeStatementCSVReaderImpl(csvFile: File) : AnnualIncomeStatementCSVReader {
+class AnnualIncomeStatementCSVReaderImpl(inputStream: InputStream) : AnnualIncomeStatementCSVReader {
 
-    private val reader: CSVReader = CSVReader(FileReader(csvFile))
+    private val reader: CSVReader = CSVReader(inputStream.bufferedReader())
     private val allRecords: List<Array<String>> = reader.readAll()
-
-    init {
-        if (csvFile.exists().not())
-            throw FileNotFoundException()
-
-        if (csvFile.extension != "csv")
-            throw IllegalArgumentException("ファイルの拡張子が正しくありません。")
-    }
 
     override fun parseToBreakdowns(): Set<MonthlyAccountBreakdown> {
         /** CSV集計期間の開始年月 */
