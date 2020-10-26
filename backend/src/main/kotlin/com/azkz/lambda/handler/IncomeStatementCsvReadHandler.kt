@@ -1,4 +1,4 @@
-package com.azkz.lambda.function
+package com.azkz.lambda.handler
 
 import com.amazonaws.services.lambda.runtime.Context
 import com.amazonaws.services.lambda.runtime.LambdaLogger
@@ -14,7 +14,7 @@ import com.azkz.usecase.csv.AnnualIncomeStatementCSVReaderImpl
  *
  * 損益計算書（年間推移）のCSVファイルを読み込む
  */
-class SampleS3EventHandler : RequestHandler<S3Event, String> {
+class IncomeStatementCsvReadHandler : RequestHandler<S3Event, String> {
 
     /**
      * Handles a Lambda Function request
