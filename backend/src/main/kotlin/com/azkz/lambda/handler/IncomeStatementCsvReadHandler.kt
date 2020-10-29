@@ -31,14 +31,14 @@ class IncomeStatementCsvReadHandler : RequestHandler<S3Event, String> {
         val record = input.records[0]
         val bucketName: String = record.s3.bucket.name
 
-        // 日本語ファイル名はエンコードされてしまうので、扱えない。
-        // S3アップロード時に名前を変更する必要あり。
-        val bucketKey: String = record.s3.`object`.key
+        val bucketKey: String = record.s3.`object`.urlDecodedKey
         val s3Client = AmazonS3ClientBuilder.defaultClient()
         val s3Object = s3Client.getObject(bucketName, bucketKey)
 
         // 「.csv」が含まれていないものは処理しない
-        if (!s3Object.key.contains(".csv")) return "422 Unprocessable Entity"
+        if (!s3Object.key.contains(".csv")){
+            return "422 Unprocessable Entity"
+        }
 
         val inputStream = s3Object.objectContent
         val reader: AnnualIncomeStatementCSVReader = AnnualIncomeStatementCSVReaderImpl(inputStream)
