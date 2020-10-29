@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6746b840-8ba0-4be0-a7f3-cddefe0463ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/domain.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/docs/domain.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/infrastructure.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/docs/infrastructure.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/docs/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/usecase.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/docs/usecase.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/accountbreakdown/AccountBreakdown.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/accountbreakdown/AccountBreakdown.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/accountbreakdown/MonthlyAccountBreakdown.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/accountbreakdown/MonthlyAccountBreakdown.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/accountbreakdown/impl/MonthlyAccountBreakdownImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/accountbreakdown/impl/MonthlyAccountBreakdownImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/accountitle/AccountCategory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/accountitle/AccountCategory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/accountitle/AccountSubcategory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/accountitle/AccountSubcategory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/accountitle/AccountTitle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/accountitle/AccountTitle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/MonthlyIncomeStatement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/MonthlyIncomeStatement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/impl/MonthlyIncomeStatementImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/impl/MonthlyIncomeStatementImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/AbstractIncomeStatementItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/AbstractIncomeStatementItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/IncomeStatementItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/IncomeStatementItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyCostOfSales.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyCostOfSales.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyExtraordinaryIncome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyExtraordinaryIncome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyExtraordinaryLoss.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyExtraordinaryLoss.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyIncomeStatementItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyIncomeStatementItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyNonOperatingExpenses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyNonOperatingExpenses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyNonOperatingIncome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlyNonOperatingIncome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlySales.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlySales.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlySellingGeneralAdministrativeExpenses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/AbstractMonthlySellingGeneralAdministrativeExpenses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyCostOfSalesImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyCostOfSalesImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyExtraordinaryIncomeImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyExtraordinaryIncomeImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyExtraordinaryLossImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyExtraordinaryLossImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyNonOperatingExpensesImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyNonOperatingExpensesImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyNonOperatingIncomeImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlyNonOperatingIncomeImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlySalesImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlySalesImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlySellingGeneralAdministrativeExpensesImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/incomestatement/items/monthly/impl/AbstractMonthlySellingGeneralAdministrativeExpensesImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/value/Amount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/value/Amount.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/value/Currency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/value/Currency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/value/Name.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/value/Name.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/domain/value/Term.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/domain/value/Term.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/lambda/handler/IncomeStatementCsvReadHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/lambda/handler/IncomeStatementCsvReadHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/usecase/csv/AnnualIncomeStatementCSVReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/usecase/csv/AnnualIncomeStatementCSVReader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/azkz/usecase/csv/AnnualIncomeStatementCSVReaderImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/main/kotlin/com/azkz/usecase/csv/AnnualIncomeStatementCSVReaderImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/domain/AmountTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/domain/AmountTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/domain/MonthlyAccountBreakdownTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/domain/MonthlyAccountBreakdownTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/domain/NameTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/domain/NameTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/domain/TermTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/domain/TermTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/domain/accounttitle/AccountTitleTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/domain/accounttitle/AccountTitleTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/incomestatement/items/CommonIncomeStatementItemTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/incomestatement/items/CommonIncomeStatementItemTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/incomestatement/items/CommonMonthlyIncomeStatementItemTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/incomestatement/items/CommonMonthlyIncomeStatementItemTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/incomestatement/items/MonthlyIncomeStatementTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/incomestatement/items/MonthlyIncomeStatementTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/azkz/usecase/csv/AnnualIncomeStatementCSVReaderTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/kotlin/com/azkz/usecase/csv/AnnualIncomeStatementCSVReaderTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/ヘッダー行なし.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/ヘッダー行なし.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/対象レコードなし.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/対象レコードなし.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/拡張子違い.txt" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/拡張子違い.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/未来データ.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/未来データ.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/正常.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/正常.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/複数年度.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/複数年度.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/集計期間なし.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/集計期間なし.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/csv/損益計算書（年間推移）/集計期間の日付不正.csv" beforeDir="false" afterPath="$PROJECT_DIR$/financial-viewer/src/test/resources/csv/損益計算書（年間推移）/集計期間の日付不正.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="financial-viewer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="financial-viewer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="financial-viewer" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jQovolxbypuIgmN7haXsM9NA4q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="backend [packageZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="packageZip" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.backend [packageZip]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6746b840-8ba0-4be0-a7f3-cddefe0463ea" name="Default Changelist" comment="" />
+      <created>1603745909184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603745909184</updated>
+    </task>
+    <task id="LOCAL-00001" summary="損益計算書CSV読み込みハンドラークラスのクラス名変更とパッケージ名の変更をした">
+      <created>1603746561154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603746561154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="日本語ファイルでも読み込めるようにした。">
+      <created>1604006516551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604006516551</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="損益計算書CSV読み込みハンドラークラスのクラス名変更とパッケージ名の変更をした" />
+    <MESSAGE value="日本語ファイルでも読み込めるようにした。" />
+    <option name="LAST_COMMIT_MESSAGE" value="日本語ファイルでも読み込めるようにした。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="CommitChangelistDialog2" timestamp="1604006516324">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="233" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1604006516324" />
+    <state x="233" y="23" key="CommitChangelistDialog2/0.23.1440.811@0.23.1440.811" timestamp="1603746560859" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1604008422931">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604008422931" />
+    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603833847178" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1604008422930">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604008422930" />
+    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1603833847176" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1604008422929">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604008422929" />
+    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1603833847175" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1604008422930">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604008422930" />
+    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1603833847177" />
+    <state x="368" y="159" key="RollbackChangesDialog" timestamp="1604007593180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="368" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1604007593180" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603918610687">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603918610687" />
+  </component>
+</project>
