@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-financialviewer-dev-54959-authRole",
+      "UnauthRoleArn": "arn:aws:iam::272901663617:role/amplify-financialviewer-dev-54959-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::272901663617:role/amplify-financialviewer-dev-54959-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-financialviewer-dev-54959-deployment",
+      "UnauthRoleName": "amplify-financialviewer-dev-54959-unauthRole",
+      "StackName": "amplify-financialviewer-dev-54959",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:272901663617:stack/amplify-financialviewer-dev-54959/f9bdaf10-1d4c-11eb-a6fe-06255f79192a",
+      "AmplifyAppId": "d2ej8ne1avtm47"
+    }
+  }
+}
